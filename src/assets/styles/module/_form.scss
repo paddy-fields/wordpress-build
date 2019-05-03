@@ -1,0 +1,12 @@
+input {
+    height: 35px;
+}
+
+input[type=text] {
+    border: 1px solid;
+}
+
+input[type=submit] {
+    background: $c-dark;
+    color: white;
+}

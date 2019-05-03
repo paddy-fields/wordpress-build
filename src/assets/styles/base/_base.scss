@@ -1,0 +1,31 @@
+body {
+    font-family: $font-body;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: $font-header;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: black;
+}
+
+input {
+    border: none;
+    padding: 7px;
+    height: 35px;
+    font-size: 20px !important;
+    outline: none;
+}

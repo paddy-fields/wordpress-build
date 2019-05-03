@@ -1,0 +1,26 @@
+// -----------------------------
+// = Colors
+// -----------------------------
+$c-blue: #B2D6FF;
+$c-green: #b3ce5a;
+$c-pink: #df6ea6;
+$c-grey: #aaaaaa;
+$c-dark: #666;
+
+// -----------------------------
+// = Fonts
+// -----------------------------
+$font-header: 'Catamaran', sans-serif;
+$font-body: 'Share', cursive;
+
+// -----------------------------
+// = Breakpoints
+// -----------------------------
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;

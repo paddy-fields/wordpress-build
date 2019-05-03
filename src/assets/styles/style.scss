@@ -1,0 +1,41 @@
+/*
+Theme Name: Wordpress Build
+Theme URI: https://patrickhurley.co.uk
+Author: LBC
+Author URI: https://patrickhurley.co.uk
+Description: Wordpress Build
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
+
+// Vendor
+@import '../../../node_modules/normalize.css/normalize';
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid';
+
+//Settings
+@import 'site-settings';
+
+// Base
+@import 'base/base';
+@import 'base/colours';
+@import 'base/helpers';
+@import 'base/mixins';
+@import 'base/overrides';
+
+// Layout
+@import 'layout/content';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/homepage';
+@import 'layout/nav';
+@import 'layout/sidebar';
+
+// Module
+@import 'module/form';
+@import 'module/gallery';
+@import 'module/hero';
+@import 'module/post';
+
+// Theme
+@import 'theme/dark';
+@import 'theme/light';

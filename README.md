@@ -1,0 +1,2 @@
+## Wordpress build system
+This is a modified version of the excellent **[Wordpressify](https://github.com/luangjokaj/wordpressify)**. I've implemented SMACSS architecture for Sass, written a simple boilerplate WP template, and added/removed a few npm packages and gulp tasks for my own needs.

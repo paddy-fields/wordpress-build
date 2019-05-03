@@ -1,0 +1,12 @@
+// Bootstrap 4
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        max-width: none !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 800px;
+    }
+}

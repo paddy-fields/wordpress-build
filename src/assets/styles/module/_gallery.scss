@@ -1,0 +1,10 @@
+.gallery--container {
+    display: flex;
+    margin-top: 50px;
+    div {
+        flex: 1;
+    }
+    img {
+        width: 100%;
+    }
+}
